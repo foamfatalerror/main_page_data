@@ -10,7 +10,7 @@
          ],
          "fecha":"2024-12-26",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_automatizada_en_open_foam_y_linux/automatizacion_open_foam_linux.jpeg",
-         "url":"como_hacer_una_simulacion_automatizada_en_open_foam_y_linux"
+         "url":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/Entradas_blog/como_hacer_una_simulacion_automatizada_en_open_foam_y_linux.MD"
       },
       {
          "titulo":"¿Cómo hacer una simulación 2D con bandas hidrofóbicas?",
@@ -21,7 +21,7 @@
          ],
          "fecha":"2024-12-04",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_2D_con_bandas_hidrofobicas/bandas_hidrof%C3%B3bicas.jpeg",
-         "url":"como_hacer_una_simulacion_2D_con_bandas_hidrofobicas"
+         "url":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/Entradas_blog/como_hacer_una_simulacion_2D_con_bandas_hidrofobicas.MD"
       },
       {
          "titulo":"Introducción básica sobre qué es Open Foam y cómo está estructurado",
@@ -31,7 +31,7 @@
          ],
          "fecha":"2024-11-15",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/DescripcionOpenFoam/Introduccion_open_foam.jpeg",
-         "url":"DescripcionOpenFoam"
+         "url":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/Entradas_blog/DescripcionOpenFoam.MD"
       }
 ]
 }
