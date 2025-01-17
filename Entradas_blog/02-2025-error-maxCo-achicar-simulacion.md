@@ -132,4 +132,13 @@ En donde $C$ es el número de Courant, $\Delta x$ es espaciado del mallado, $\mu
 Para poder ejemplificar esta situación del evento/objeto/sistema físico que queremos **Fotografiar** vamos a proponer una pequeña animación.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ5JoI2wQy0?si=Og5N7cChSoNXDjyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![](https://www.youtube.com/embed/dQ5JoI2wQy0?si=Og5N7cChSoNXDjyc)]
+
+En este ejemplo vemos claramente que para el primer lanzamiento de la bola, podemos captar su movimiento entre foto y foto, debido que a **cae** dentro de nuestra pantalla o campo de visión (Que sería como la celda en una simulación), esto nos permite poder mesurar correctamente que sucede.
+
+Sin embargo para el segundo lo que sucede es que la velocidad de la bola es tan grande que "escapa" de nuestra celda o campo de visión. Esto provoca que no podamos ver o medirlo. Esto provoca un error serio dentro de Open Foam y es justamente el que nos lanza cuando hacemos alguna de las siguientes cosas:
+
+- Achicar un dominio (Sería equivalente a achicar $\Delta x$)
+- Agrandar el tiempo que dejamos pasar entre paso temporal y paso temporal (Agrandar $\Delta t$)
+
+
