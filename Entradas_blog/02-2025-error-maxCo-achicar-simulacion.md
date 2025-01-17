@@ -126,6 +126,9 @@ La ecuación que lo define es la siguiente:
 `$
 C=\frac{\mu}{\Delta x/\Delta t}
 `$
+
+$`\sqrt{\$4}`$
+
 En donde $C$ es el número de Courant, $\Delta x$ es espaciado del mallado, $\mu$ es la velocidad del objeto/evento/sistema físico y $\Delta t$ es el espaciado temporal de la simulación o cada *cuanto tomamos la foto*.
 ## Ejemplo de aplicación del Número de Courant
 
