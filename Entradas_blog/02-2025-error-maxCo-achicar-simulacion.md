@@ -134,7 +134,7 @@ En donde $C$ es el número de Courant, $\Delta x$ es espaciado del mallado, $\mu
 Para poder ejemplificar esta situación del evento/objeto/sistema físico que queremos **Fotografiar** vamos a proponer una pequeña animación.
 
 
-[Animación de ejemplo](https://www.youtube.com/embed/dQ5JoI2wQy0?si=Og5N7cChSoNXDjyc)]
+[Animación de ejemplo](https://www.youtube.com/embed/dQ5JoI2wQy0?si=Og5N7cChSoNXDjyc)
 
 En este ejemplo vemos claramente que para el primer lanzamiento de la bola, podemos captar su movimiento entre foto y foto, debido que a **cae** dentro de nuestra pantalla o campo de visión (Que sería como la celda en una simulación), esto nos permite poder mesurar correctamente que sucede.
 
