@@ -28,7 +28,7 @@ En este post vamos a estar abordando de donde nace este error, cual es el sentid
 
 Abordamos en primer lugar la solución para aquellos/as que sean mas ansiosos y quieran ir directo al meollo de la cuestión. La solución a este problema la vamos a encontrar en el archivo:
 
-```
+```bash
 ├── 0
 │   ├── alpha.water.orig
 │   ├── p.orig
@@ -54,7 +54,7 @@ Abordamos en primer lugar la solución para aquellos/as que sean mas ansiosos y 
 
 En este archivo veremos que tendremos algo muy similar a lo siguiente:
 
-```
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
