@@ -18,7 +18,7 @@ Para el mallado utilizaremos la herramienta de Open Foam llamada `blockMesh` la 
 
 Nuestro archivo que hará este trabajo se encuentra en `system/blockMeshDict` y su contenido es el siguiente:
 
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -203,7 +203,7 @@ Podemos ver que esta imagen que el mallado tiende a estar mas "junto" o "apretad
 
 Para realizar la unión de los 3 bloques es necesario en el diccionario boundary dentro del código de `blockMesh` definir las caras que estarán tocandose entre si, que luego tendremos que unir o "coser el mallado". Para ello tenemos este trozo de código que define las caras que se tocan de los 3 cubos, que deberán ser 4 caras. Una del primer bloque, dos del bloque del medio y una del último bloque:
 
-```c++
+```cpp
     interface_cubo_1_der
     {
         type wall;
@@ -240,7 +240,7 @@ Para realizar la unión de los 3 bloques es necesario en el diccionario boundary
 
 Luego una vez definidas las caras que se estarán tocando, solo queda decir cuales son las que sus mallados se uniran, esto se logra con el diccionario llamado `mergePatchPairs`.
 
-```c++
+```cpp
 mergePatchPairs
 (
     (interface_cubo_1_der interface_cubo_2_izq)
@@ -262,7 +262,7 @@ Para esta magnitud o campo las condiciones de contorno para estas paredes serán
 
 Esto lo tendremos en el archivo `0.orig/alpha.water.orig` el cual será:
 
-```c++
+```cpp
     atmosphere
     {
         type            constantAlphaContactAngle;
@@ -292,7 +292,7 @@ Para la presión dinámica, las paredes laterales y superior tendrán la condici
 
 Esto lo tendremos en el archivo `0.orig/p_rgh`:
 
-```c++
+```cpp
     atmosphere
     {
         type            fixedValue;
@@ -312,7 +312,7 @@ Para las paredes laterales tendremos condiciones de no deslizamiento o `noSlip` 
 
 Esto lo tendremos en el archivo `0.orig/U`:
 
-```c++
+```cpp
     atmosphere
     {
         type            pressureInletOutletVelocity;
@@ -337,7 +337,7 @@ Para los dos tipos de suelo, tendremos dos tipos de condiciones de contorno en d
 
 Para este borde las condiciones de contorno se verán de la siguiente manera:
 
-```c++
+```cpp
 	inlet_hidrofobic
     {
         type            constantAlphaContactAngle;
@@ -362,7 +362,7 @@ En donde para el bórde hidrofóbico el ángulo de contacto es de 135° y el án
 
 Para la presión dinámica, tendrá la condición de valor fijo de presión `fixedFluxPressure`.
 
-```c++
+```cpp
     inlet_hidrofobic
     {
         type            fixedFluxPressure;
@@ -378,7 +378,7 @@ Para la presión dinámica, tendrá la condición de valor fijo de presión `fix
 
 Para la velocidad en el suelo de bandas hidrofóbicas/hidrofílicas tendremos la condición de no deslizamiento del fluido o lo que es lo mismo velocidad cero de la capa en contacto con las paredes.
 
-```c++
+```cpp
     inlet_hidrofobic
     {
         type            noSlip;
@@ -396,7 +396,7 @@ Para todos los campos `U`, `p_rgh` y `alpha.water` la condición de ambos bordes
 
 En el archivo de condiciones de contorno se verán de la siguiente manera:
 
-```c++
+```cpp
     defaultFaces
     {
         type            empty;
@@ -409,7 +409,7 @@ En el archivo de condiciones de contorno se verán de la siguiente manera:
 
 Debido a que es necesario comenzar con un fluido en alguna región del dominio que poseemos, es necesario definir en donde comenzará. Esto se hace mediante el archivo en la ruta `/system/setFieldsDict` el cual contiene la siguiente información:
 
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
