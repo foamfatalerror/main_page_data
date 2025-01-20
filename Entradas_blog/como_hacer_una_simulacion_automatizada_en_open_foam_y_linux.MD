@@ -31,7 +31,7 @@ En donde el ángulo de contacto variable será el que iremos moviendo simulació
 ### Archivo BlockMesh de nuestro caso ejemplo
 Para la creación de nuestro dominio en blockMesh utilizaremos 3 bloques contiguos y pegados, en donde en cada uno iremos declarando las superficies para poder setear sus propiedades en los archivos de condiciones de contorno.
 
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -202,7 +202,7 @@ mergePatchPairs
 Este archivo nos dirá el estado y la geometría en la cual inician nuestras gotas, es decir velocidad, posición, presión inicial.
 Para nuestra simulación tomaremos como condición inicial de las gotas una velocidad = 0 y también tomaremos semi círculos de las gotas apoyados en el suelo (como se puede apreciar en la figura).
 
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -261,7 +261,7 @@ regions
 Las condiciones de contorno de acuerdo a lo planteado anteriormente serán:
 
 Para la velocidad:
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -324,7 +324,7 @@ boundaryField
 ```
 
 Para la presión dinámica:
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -380,7 +380,7 @@ boundaryField
 ```
 
 Para los ángulos de contacto
-```c++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
