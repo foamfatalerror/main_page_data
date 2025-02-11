@@ -50,23 +50,6 @@ OpenFOAM organiza su trabajo en directorios llamados **casos**, los cuales conti
 
 ---
 
-## Instalación de OpenFOAM
-
-### En Linux (Ubuntu)
-
-La instalación en Linux es sencilla gracias a los paquetes precompilados:
-
-```bash
-sudo apt update
-sudo apt install openfoam
-```
-
-### En Windows
-
-Para Windows, puedes usar WSL (Windows Subsystem for Linux). Asegúrate de instalar Ubuntu dentro de WSL y luego sigue los pasos de Linux.
-
----
-
 ## Herramientas Complementarias
 
 ### ParaView
