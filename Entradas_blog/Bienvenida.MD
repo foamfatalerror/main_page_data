@@ -16,5 +16,5 @@ Somos dos estudiantes de doctorado que pertenecemos al **Laboratorio de Modelado
 Rápidamente nos dimos cuenta lo **dificil** que es aprender open foam debido a su gran curva de aprendizaje al inicio. Es por ello que nos propusimos, aprender todo lo que podamos sobre este gran programa y para no olvidarlo, creamos este blog que funciona como un repositorio de conocimiento chequeado y funcional. Luego agregamos el paso de extra de compartirlo y aqui estamos 🤗
 
 ---
-## ¿Como validamos nuestras casos y soluciones?
-Gracias al increible equipo de físicos, profesores e ingenieros que nos respalda desde el **LMSC** y tambien desde el grupo de investigación [NEP&TP](https://neptp.netlify.app/).
+## ¿Como validamos nuestras casos y soluciones? 🖊️
+Gracias al increible equipo de físicos, profesores e ingenieros que nos respalda desde el **LMSC** y tambien desde el grupo de investigación [NEP&TP](https://neptp.netlify.app/) con una amplia trayectoria en investigación de fenómenos físicos de transporte de materia y energía.
