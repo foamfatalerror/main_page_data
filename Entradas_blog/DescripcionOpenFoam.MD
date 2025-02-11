@@ -79,25 +79,6 @@ Si buscas renderizar tus simulaciones de manera más artística o realista, Blen
 
 ---
 
-## Ejemplo: Simulación de un Flujo en una Tubería
-
-```text
-Dominio: Tubería cilíndrica
-Condiciones:
-- Flujo: Incompresible
-- Velocidad: 1 m/s
-- Presión: 0 Pa en salida
-Solver: simpleFoam
-```
-
-```bash
-blockMesh
-simpleFoam
-paraFoam
-```
-
----
-
 ## Consejos y Trucos para Usar OpenFOAM
 
 - **Optimiza tu Mallado**: Un buen mallado puede marcar la diferencia entre una simulación rápida y precisa o una que consuma demasiado tiempo.
@@ -110,8 +91,7 @@ paraFoam
 
 - [Página Oficial de OpenFOAM](https://www.openfoam.com/)
 - [Documentación de Usuario](https://www.openfoam.com/documentation/)
-- [Canal de YouTube de OpenFOAM](https://www.youtube.com/user/OpenFOAM)
-- [Simulaciones de Ejemplo](https://www.openfoam.com/examples/)
+- [Foro de preguntas sobre Open Foam](https://www.cfd-online.com/Forums/openfoam-solving/)
 
 ---
 
