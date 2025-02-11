@@ -6,8 +6,10 @@ Hola y gracias por visitarnos. Este espacio está diseñado para apasionados de 
 ## ¿Quienes somos? 🖖
 
 Somos dos estudiantes de doctorado que pertenecemos al **Laboratorio de Modelado y Simulación Computacional** ubicado fisicamente en la Universidad de General Sarmiento - Buenos aires - Argentina.
+
 [Lucas Chej - Ingeniero Mecánico](https://www.linkedin.com/in/lucaschej/)
 [Luciano Zurdo - Ingeniero Electromecánico](https://www.linkedin.com/in/luis-luciano-zurdo/)
+
 ---
 ## ¿Porque empezamos este blog? 🤔
 
