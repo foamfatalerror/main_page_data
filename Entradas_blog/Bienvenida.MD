@@ -8,7 +8,7 @@ Somos dos estudiantes de doctorado que pertenecemos al **Laboratorio de Modelado
 ---
 ## ¿Porque empezamos este blog? 🤔
 
-Rápidamente nos dimos cuenta lo **dificil** que es aprender open foam debido a su gran curva de aprendizaje al inicio. Es por ello que nos propusimos, aprender todo lo que podamos sobre este gran programa y para no olvidarlo, creamos este blog que funciona como un repositorio de conocimiento chequeado y funcional. Luego agregamos el paso de extra de compartirlo y aqui estamos 🤗
+Rápidamente nos dimos cuenta lo **dificil** que es aprender a utilizar OpenFoam debido a su gran curva de aprendizaje al inicio. Es por ello que nos propusimos aprender todo lo que podamos sobre este gran programa y (para no olvidarlo) creamos este blog que funciona como un repositorio de conocimiento chequeado y funcional 100%. Luego agregamos el paso de extra de compartirlo con la comunidad y aqui estamos 🤗
 
 ---
 ## ¿Como validamos nuestras casos y soluciones? 🖊️
