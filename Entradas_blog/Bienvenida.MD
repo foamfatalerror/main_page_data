@@ -1,8 +1,3 @@
-# ¡Bienvenido a nuestro Blog de OpenFOAM! ✨
-
-Hola y gracias por visitarnos. Este espacio está diseñado para apasionados de la simulación, ingenieros, estudiantes y curiosos que quieren explorar el fascinante mundo de **OpenFOAM**. Aquí encontrarás tutoriales, ejemplos prácticos, tips avanzados y discusiones sobre cómo utilizar esta increíble herramienta de código abierto para resolver problemas complejos de dinámica de fluidos computacional (CFD) y otras áreas.
-
----
 ## ¿Quienes somos? 🖖
 
 Somos dos estudiantes de doctorado que pertenecemos al **Laboratorio de Modelado y Simulación Computacional** [LMSC](https://www.linkedin.com/in/laboratory-of-modeling-and-computational-simulations-lmsc-b47b17266/) ubicado fisicamente en la Universidad de General Sarmiento - Buenos aires - Argentina.
