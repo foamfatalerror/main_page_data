@@ -12,4 +12,4 @@ Rápidamente nos dimos cuenta lo **dificil** que es aprender a utilizar OpenFoam
 
 ---
 ## ¿Como validamos nuestras casos y soluciones? 🖊️
-Gracias al increible equipo de físicos, profesores e ingenieros que nos respalda desde el **LMSC** y tambien desde el grupo de investigación [NEP&TP](https://neptp.netlify.app/) con una amplia trayectoria en investigación de fenómenos físicos de transporte de materia y energía.
+Gracias al increible equipo de físicos, profesores e ingenieros que nos respalda desde el **LMSC** y tambien desde el grupo de investigación [NEP&TP](https://neptp.netlify.app/) con una amplia trayectoria en investigación de fenómenos físicos de transporte de materia y energía (tambien te invitamos a leer las publicaciones del grupo de investigación [Publicaciones](https://neptp.netlify.app/publications))
