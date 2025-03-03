@@ -132,7 +132,7 @@ Por otro lado esta simulación de ejemplo tendrá las siguientes consideraciones
 - Tipo: 2-D (tendremos un eje z que no utilizaremos).
 
 Esquema del dominio de estudio:
-![imagen_situacion_fisica](https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/funciones_post_procesamiento/dibujo-dominio-gota-hirviendo.png)
+![imagen_situacion_fisica](https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202503-introduccion-a-funciones-post-procesamiento/dibujo-dominio-gota-hirviendo.png)
 # ¿Como se utilizan?
 Las funciones de **postprocesamiento** (al menos en la versión de OpenFOAM 2406) se escriben dentro de nuestro carpeta del caso en el archivo `system/controlDict`.
 
