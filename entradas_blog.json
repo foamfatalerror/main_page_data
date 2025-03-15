@@ -1,6 +1,16 @@
 {
 "posts":
-[
+[      
+      {
+         "titulo":"Instalación de OpenFOAM 2406V",
+         "descripcion":"En este post veremos como instalar OpenFOAM v2406 en un servidor Linux, especificamente Ubuntu 22.04LTS",
+         "hashtag":[
+            "installation"
+         ],
+         "fecha":"2025-03-03",
+         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202501-instalacion_open_foam_com_servidor/imagen_grillado.jpeg",
+         "url":"202501-instalacion_open_foam_com_servidor.md"
+      },
       {
          "titulo":"Introduccion a funciones post procesamiento",
          "descripcion":"En este post veremos como aplicar una función de post-procesamiento sobre una simulación de OpenFOAM v2406",
