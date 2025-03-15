@@ -164,7 +164,7 @@ source /lib/openfoam/openfoam202406/etc/bashrc
 
 y luego para comenzar a simular este caso tutorial, lanzamos:
 
-```bashrc
+```bash
 ./Allrun
 ```
 
