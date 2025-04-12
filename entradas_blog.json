@@ -41,7 +41,6 @@
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202503-introduccion-a-funciones-post-procesamiento/imagen_grillado.jpeg",
          "url":"202503-introduccion-a-funciones-post-procesamiento.md"
       },
-
       {
          "titulo":"Introducción básica sobre qué es Open Foam y cómo está estructurado",
          "descripcion":"OpenFOAM (Open Field Operation And Manipulation) es una plataforma de código abierto para la simulación de dinámica de fluidos computacional (CFD).",
