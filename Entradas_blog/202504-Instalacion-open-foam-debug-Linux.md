@@ -14,7 +14,7 @@ En esta oportunidad veremos como realizar una de OpenFOAM en modo **debug**. Est
 ---
 # Material Adicional
 
- [Video De Instalación](https://youtu.be/UMItrrbVsrA)
+ [Video De Instalación](https://youtu.be/UMItrrbVsrA): https://youtu.be/UMItrrbVsrA
 
 ---
 # Pasos de instalación
