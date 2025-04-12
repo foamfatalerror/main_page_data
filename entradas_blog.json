@@ -2,11 +2,20 @@
 "posts":
 [      
       {
+         "titulo":"Instalación de OpenFOAM 2406V - Versión DEBUG",
+         "descripcion":"En este post veremos como instalar OpenFOAM v2406 en un sistema linux en su versión Debug",
+         "hashtag":[
+            "Installation"
+         ],
+         "fecha":"2025-04-12",
+         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202504-Instalacion-open-foam-debug-Linux/imagen_grillado.jpeg",
+         "url":"202504-Instalacion-open-foam-debug-Linux.md"
+      },
+      {
          "titulo":"Floating point exception - Una de las posibles causas",
          "descripcion":"En este post veremos una de las razones por las cuales nuestras simulaciones pueden fallar al cambiar las dimensiones de la misma sin haber modificado otras magnitudes",
          "hashtag":[
-            "Errors",
-            "NroCourant"
+            "Errors"
          ],
          "fecha":"2025-03-22",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/02-2025-error-maxCo-achicar-simulacion/imagen_grillado.jpeg",
@@ -16,7 +25,7 @@
          "titulo":"Instalación de OpenFOAM 2406V",
          "descripcion":"En este post veremos como instalar OpenFOAM v2406 en un servidor Linux, especificamente Ubuntu 22.04LTS",
          "hashtag":[
-            "installation"
+            "Installation"
          ],
          "fecha":"2025-03-14",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202501-instalacion_open_foam_com_servidor/imagen_grillado.jpeg",
@@ -32,28 +41,7 @@
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202503-introduccion-a-funciones-post-procesamiento/imagen_grillado.jpeg",
          "url":"202503-introduccion-a-funciones-post-procesamiento.md"
       },
-      {
-         "titulo":"¿Cómo hacer una simulación automatizada en Open Foam y Linux?",
-         "descripcion":"Serie de simulaciones muy ligeras (ya que son 2D y con muy pocas celdas) pero de una manera automatizada aprovechando de la potencia de Linux y sus scripts de bash",
-         "hashtag":[
-            "InterFoam",
-            "Linux"
-         ],
-         "fecha":"2024-12-26",
-         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_automatizada_en_open_foam_y_linux/automatizacion_open_foam_linux.jpeg",
-         "url":"como_hacer_una_simulacion_automatizada_en_open_foam_y_linux.MD"
-      },
-      {
-         "titulo":"¿Cómo hacer una simulación 2D con bandas hidrofóbicas?",
-         "descripcion":"Se trata de un caso en el cual dejamos dos gotas de agua caer desde una altura arbitraria sobre un suelo hidrofóbico para luego estudiar y ver qué sucede con las gotitas.",
-         "hashtag":[
-            "InterFoam",
-            "Linux"
-         ],
-         "fecha":"2024-12-04",
-         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_2D_con_bandas_hidrofobicas/bandas_hidrof%C3%B3bicas.jpeg",
-         "url":"como_hacer_una_simulacion_2D_con_bandas_hidrofobicas.MD"
-      },
+
       {
          "titulo":"Introducción básica sobre qué es Open Foam y cómo está estructurado",
          "descripcion":"OpenFOAM (Open Field Operation And Manipulation) es una plataforma de código abierto para la simulación de dinámica de fluidos computacional (CFD).",
@@ -66,3 +54,25 @@
       }
 ]
 }
+//      {
+//         "titulo":"¿Cómo hacer una simulación automatizada en Open Foam y Linux?",
+//         "descripcion":"Serie de simulaciones muy ligeras (ya que son 2D y con muy pocas celdas) pero de una manera automatizada aprovechando de la potencia de Linux y sus scripts de bash",
+//         "hashtag":[
+//            "InterFoam",
+//            "Linux"
+//         ],
+//         "fecha":"2024-12-26",
+//         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_automatizada_en_open_foam_y_linux/automatizacion_open_foam_linux.jpeg",
+//         "url":"como_hacer_una_simulacion_automatizada_en_open_foam_y_linux.MD"
+//      },
+//      {
+//         "titulo":"¿Cómo hacer una simulación 2D con bandas hidrofóbicas?",
+//         "descripcion":"Se trata de un caso en el cual dejamos dos gotas de agua caer desde una altura arbitraria sobre un suelo hidrofóbico para luego estudiar y ver qué sucede con las gotitas.",
+//         "hashtag":[
+//            "InterFoam",
+//            "Linux"
+//         ],
+//         "fecha":"2024-12-04",
+//         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/como_hacer_una_simulacion_2D_con_bandas_hidrofobicas/bandas_hidrof%C3%B3bicas.jpeg",
+//         "url":"como_hacer_una_simulacion_2D_con_bandas_hidrofobicas.MD"
+//      },
