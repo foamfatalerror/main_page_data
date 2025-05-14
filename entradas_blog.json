@@ -2,6 +2,16 @@
 "posts":
 [     
       {
+         "titulo":"Propiedades termofísicas variables de un fluido",
+         "descripcion":"Tutorial sobre como hacer variar distintas propiedades de un fluido en función de su temperatura",
+         "hashtag":[
+            "physicalProperties"
+         ],
+         "fecha":"2025-05-14",
+         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202505_propiedades_termofisicas_variables/imagen_grillado.jpeg",
+         "url":"202505_propiedades_termofisicas_variables.md"
+      },
+      {
          "titulo":"BlockMesh, como utilizar la herramienta de mallado primordial",
          "descripcion":"En este post veremos como utilizar esta herramienta y que significan sus partes en el diccionario blockMeshDict",
          "hashtag":[
