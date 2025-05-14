@@ -3,8 +3,9 @@
 
 Para aplicaciones específicas, uno podría necesitar simular no solo determinado fluido ,distinto al $H_2O$ o al $O_2$, sino ademas definir sus propiedades termofísicas variables en función de la temperatura.
 
-Si miramos uno de los casos [tutoriales](https://github.com/OpenFOAM/OpenFOAM-10/blob/master/tutorials/heatTransfer/chtMultiRegionFoam/heatedDuct/constant/fluid/physicalProperties)de OpenFOAM, veremos como en el archivo *physicalProperties* en muchos casos tiene su fluido con propiedades termofísicas constantes:
-```c++
+Si miramos uno de los casos [tutoriales](https://github.com/OpenFOAM/OpenFOAM-10/blob/master/tutorials/heatTransfer/chtMultiRegionFoam/heatedDuct/constant/fluid/physicalProperties) de OpenFOAM, veremos como en el archivo *physicalProperties* en muchos casos tiene su fluido con propiedades termofísicas constantes:
+
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
@@ -77,18 +78,18 @@ Luego de seleccionar la tabla de su interes, pueden (luego de convertir las unid
 30	0.9956488	995.65	1.9319	62.1563	8.3091	9.7640	62.156	3.03
 35	0.9940326	994.03	1.9287	62.0554	8.2956	9.7481	62.055	3.45
 40	0.9922152	992.22	1.9252	61.9420	8.2804	9.7303	61.942	3.84
-45	0.99021	    990.21	1.9213	61.8168	8.2637	9.7106	61.817	4.20
-50	0.98804	    988.04	1.9171	61.6813	8.2456	9.6894	61.681	4.54
-55	0.98569	    985.69	1.9126	61.5346	8.2260	9.6663	61.535	4.86
-60	0.98320	    983.20	1.9077	61.3792	8.2052	9.6419	61.379	5.16
-65	0.98055	    980.55	1.9026	61.2137	8.1831	9.6159	61.214	5.44
-70	0.97776	    977.76	1.8972	61.0396	8.1598	9.5886	61.040	5.71
-75	0.97484	    974.84	1.8915	60.8573	8.1354	9.5599	60.857	5.97
-80	0.97179	    971.79	1.8856	60.6669	8.1100	9.5300	60.667	6.21
-85	0.96861	    968.61	1.8794	60.4683	8.0834	9.4988	60.468	6.44
-90	0.96531	    965.31	1.8730	60.2623	8.0559	9.4665	60.262	6.66
-95	0.96189	    961.89	1.8664	60.0488	8.0274	9.4329	60.049	6.87
-100	0.95835	    958.35	1.8595	59.8278	7.9978	9.3982	59.828	7.03
+45	0.99021	        990.21	1.9213	61.8168	8.2637	9.7106	61.817	4.20
+50	0.98804	        988.04	1.9171	61.6813	8.2456	9.6894	61.681	4.54
+55	0.98569	        985.69	1.9126	61.5346	8.2260	9.6663	61.535	4.86
+60	0.98320	        983.20	1.9077	61.3792	8.2052	9.6419	61.379	5.16
+65	0.98055	        980.55	1.9026	61.2137	8.1831	9.6159	61.214	5.44
+70	0.97776	        977.76	1.8972	61.0396	8.1598	9.5886	61.040	5.71
+75	0.97484	        974.84	1.8915	60.8573	8.1354	9.5599	60.857	5.97
+80	0.97179	        971.79	1.8856	60.6669	8.1100	9.5300	60.667	6.21
+85	0.96861	        968.61	1.8794	60.4683	8.0834	9.4988	60.468	6.44
+90	0.96531	        965.31	1.8730	60.2623	8.0559	9.4665	60.262	6.66
+95	0.96189	        961.89	1.8664	60.0488	8.0274	9.4329	60.049	6.87
+100	0.95835	        958.35	1.8595	59.8278	7.9978	9.3982	59.828	7.03
 ```
 En el siguiente paso, usaremos solo la primer y la tercer columna, que contienen los valores de temperatura y densidad.
 ### Carga de datos
@@ -182,10 +183,7 @@ print(a,b,c)
 
 El ajuste se traduce en la siguiente ecuación:
 $$
-\begin{equation}
 \rho(T) = 749.0901586 +1.906677T -3.6111\times10^{-3}T^2
-\tag{1}
-\end{equation}
 $$
 
 
@@ -195,14 +193,14 @@ $$
 
 La forma de cargar ahora la Eq. $(1)$ en OpenFoam, es usando la siguiente lógica:
 
-```c++
+```cpp
 rhoCoeffs<8>    ( c b a 0 0 0 0 0 );
 ```
 
 
 Cabe destacar que la precisión en la simulación estará luego ligada tambien a la precisión usada en los parametros "a,b,c" usados en physicalProperties.
 
-```C++
+```cpp
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
