@@ -64,7 +64,6 @@ En este tutorial veremos brevemente como hacer una simulación con la densidad v
 
 Para conocer como varía la densidad a una determinada presión de interes, y en un determinado rango de temperaturas que sean los de nuestro caso, pueden acudir a [distintas fuentes](https://www.engineeringtoolbox.com/water-density-specific-weight-d_595.html). En nuestro caso, voy a mostrar el ejemplo de una base de datos que suelo usar habitualmente porque tiene valores precisos de propiedades para distintos fluidos.  
 
-<iframe width="560" height="315" src="https://www.engineeringtoolbox.com/water-density-specific-weight-d_595.html" title="Density table" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Luego de seleccionar la tabla de su interes, pueden (luego de convertir las unidades a MKS), generar una tabla sencilla en txt o csv de la siguiente forma:
 
 ```txt
@@ -263,7 +262,5 @@ L siguiente imagen muestra la visualización del campo de densidades en un flujo
 ## Ejemplo de aplicación
 
 En el siguiente [paper](https://arxiv.org/pdf/2402.09931) se encuentra un ejemplo de modificación de las propiedades termofísicas no solo de la densidad, sino tambien de la conductividad térmica, de la capacidad calorífica y tambien de la viscosidad del fluido.
-
-<iframe width="560" height="315" src="https://pubs.aip.org/aip/pof/article-abstract/36/8/082005/3308319/Modeling-considerations-about-a-microchannel-heat?redirectedFrom=fulltext" title="Paper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
