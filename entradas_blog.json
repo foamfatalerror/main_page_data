@@ -2,6 +2,16 @@
 "posts":
 [     
       {
+         "titulo":"Funciones de Post-procesamiento avanzadas",
+         "descripcion":"Tutorial sobre como hacer funciones de postprocesamiento avanzadas, calcularemos entidades como centros de masa, integrales volumétricas, de superficie y entidades como fuerzas sobre una gota",
+         "hashtag":[
+            "Post-processing Functions"
+         ],
+         "fecha":"2025-05-23",
+         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202505-funciones-post-procesamiento-intermedio/imagen_grillado.png",
+         "url":"202505-funciones-post-procesamiento-intermedio.md"
+      },
+      {
          "titulo":"Propiedades termofísicas variables de un fluido",
          "descripcion":"Tutorial sobre como hacer variar distintas propiedades de un fluido en función de su temperatura",
          "hashtag":[
