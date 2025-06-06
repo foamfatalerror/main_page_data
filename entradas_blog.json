@@ -2,6 +2,16 @@
 "posts":
 [     
       {
+         "titulo":"Introducción a SnappyHexMesh + Mallado paralelizado",
+         "descripcion":"En este post veremos información sobre como mallar geometrias mas complejas utilizando la herramienta de mallado nativa de OpenFOAM",
+         "hashtag":[
+            "Mesh"
+         ],
+         "fecha":"2025-06-06",
+         "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202506-SnappyHexMesh-introduccion/imagen_grillado.png",
+         "url":"202506-SnappyHexMesh-introduccion.md"
+      },
+      {
          "titulo":"Funciones de Post-procesamiento avanzadas",
          "descripcion":"Tutorial sobre como hacer funciones de postprocesamiento avanzadas, calcularemos entidades como centros de masa, integrales volumétricas, de superficie y entidades como fuerzas sobre una gota",
          "hashtag":[
@@ -25,7 +35,7 @@
          "titulo":"BlockMesh, como utilizar la herramienta de mallado primordial",
          "descripcion":"En este post veremos como utilizar esta herramienta y que significan sus partes en el diccionario blockMeshDict",
          "hashtag":[
-            "Generals"
+            "Mesh"
          ],
          "fecha":"2025-04-25",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202504-blockMesh-introducci%C3%B3n/imagen_grillado.jpeg",
