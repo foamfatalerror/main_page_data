@@ -9,7 +9,7 @@
          ],
          "fecha":"2025-08-22",
          "imagen":"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202508-temperatura-variable/tiempo-final.png",
-         "url":"202508-temperatura-variable.md"https://raw.githubusercontent.com/foamfatalerror/main_page_data/refs/heads/main/imagenes_blog/202506-SnappyHexMesh-introduccion/imagen_grillado.png
+         "url":"202508-temperatura-variable.md"
       },
       {
          "titulo":"Introducción a SnappyHexMesh + Mallado paralelizado",
